@@ -1,0 +1,3 @@
+def push(stack,value):
+    
+    
