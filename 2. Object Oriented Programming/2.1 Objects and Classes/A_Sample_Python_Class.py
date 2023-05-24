@@ -6,7 +6,7 @@ class Monster:
     color = "black"         #'color' attribute, 'black' value
     
     #constructor
-    def __init__(self, age, name):
+    def __init__(self, age, name = "Monster"):
         #instance attributes,  means each objects in monster class has different values for age, name attributes
         self.age = age          # 'self' is a method that use to refer current object
         self.name = name
@@ -34,4 +34,9 @@ print(monster1.age)
 monster2 = Monster(20, "Goblin")
 print(monster2.name)
 
+monster3 = Monster(10)      #in here we didn't assign a value to monster3.name, so it take the default value in name which is "Monster"
+print(monster3.name)
+
+Monster.color = "green"
+print(monster3.color)
         
