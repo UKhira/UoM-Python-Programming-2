@@ -21,7 +21,7 @@ while True:
             data = con.recv(BUF_SIZE)
             if newmsg:
                 msg_length = int(data[:HEADER_SIZE].decode("utf-8"))
-                #print(msg_length)
+                # print(msg_length)
                 message+=data[HEADER_SIZE:].decode("utf-8")
                 newmsg = False
             else:
