@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+<motorvehicle>
+    <vehicle type = "car" year = "2023">    This is attribute version
+
+    <vehicle>
+        <type>car</type>    
+        <year>2023</year>                   This is sub-element version
+    </vehicle>
+
+    This vehicle is a car.
+        <registration_no>CBB - 1456</registration_no>
+        <make>Toyota</make>
+        <model>Premio</model>
+    </vehicle>
+    <owner>
+        <first_name>Udith</first_name>
+        <last_name>Kavishka</last_name>
+        <nic>200230300964</nic>
+    </owner>
+</motorvehicle>
